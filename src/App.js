@@ -72,6 +72,7 @@ function App() {
           
           <br></br>
           <br></br>
+          
           • An Application that displays the multiplication tables based on the given input.
           
           <br></br>
