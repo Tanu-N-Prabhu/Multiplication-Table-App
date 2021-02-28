@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function App(){
 
   // This is the function that multiplies the numbers given by the user.
   function multiplyBy(){
@@ -46,85 +46,71 @@ function App() {
     // In react always the return in this file should be enclose by one html tag.
     <div class="container">
       <br></br>
- 
-  <div class="card">
-    <div class="card-body">
-      <h3 class="card-title">Multiplication Table</h3>
-      <h5 >Get the Multiplication Table You Want!</h5>
-        
-    <div class="help-tip">
-        
-        <p>
-          
-          <b>Tips to Success</b>
-          
-          <br></br>
-          <br></br>
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Multiplication Table</h3>
+          <h5 >Get the Multiplication Table You Want!</h5> 
+          <div class="help-tip">
+            <p> 
+              <b>Tips to Success</b>
+              
+              <br></br>
+              <br></br>
 
-          • An Application that displays the multiplication tables based on the given input.
-          
-          <br></br>
-          <br></br>
+              • An Application that displays the multiplication tables based on the given input.
+              
+              <br></br>
+              <br></br>
 
-          • Enter 3 and 10 in the first and second input box respectively to view the table of 3 with range of 10.
-         
-          <br></br>
-          <br></br>
+              • Enter 3 and 10 in the first and second input box respectively to view the table of 3 with range of 10.
+            
+              <br></br>
+              <br></br>
 
-          • The default value of the first input box is 1. Both the boxes takes only numbers as input.
+              • The default value of the first input box is 1. Both the boxes takes only numbers as input.
 
-          <br></br>
-          <br></br>
+              <br></br>
+              <br></br>
 
-          • The input for the second box is important, without it you would not be able to view the output.
-        
-        </p>
-           
-    </div>
-            
-
-      
-        
-        <form id = "final">
-            
-            <div class="form-group">
-                <label>Enter the Number</label>
-                <input type="text" class="form-control" id="firstNumber" placeholder="Multiplication Table Number" type="number" onKeyPress={(event) => {
-        if (!/[0-9]/.test(event.key)) {
-          event.preventDefault();
-        }
-      }}/>
-                <small class="form-text text-muted">Example - To View Multiplication table of 3, enter 3</small>
-            </div>
-            
-             <div class="form-group">
-                <label for="exampleInputEmail1">Enter the Range</label>
-                <input type="text" class="form-control" id="secondNumber" aria-describedby="emailHelp" placeholder="Enter the Range" onKeyPress={(event) => {
-        if (!/[0-9]/.test(event.key)) {
-          event.preventDefault();
-        }
-      }}/>
-                <small class="form-text text-muted">Example - To View 10 results, enter 10 as range</small>
-            </div>
-            
-            <button type="button" class="btn btn-primary" onClick={multiplyBy} id = "submit">Submit</button>
-            <button class = "btn btn-primary" id = "clear">Clear</button>
-            
-
-            
-            <p id = "result">
-            
-            
+              • The input for the second box is important, without it you would not be able to view the output.
             
             </p>
-            
-            
+          </div>
 
-        </form>  
-        
-        
-    </div>
-  </div>
+          <form id = "final">
+                <div class="form-group">
+                    <label>Enter the Number</label>
+                    <input type="text" class="form-control" id="firstNumber" placeholder="Multiplication Table Number" type="number" 
+                      onKeyPress={(event) => {
+                      if (!/[0-9]/.test(event.key)) {
+                        event.preventDefault();
+                      }
+                    }}/>
+                    <small class="form-text text-muted">Example - To View Multiplication table of 3, enter 3</small>
+                </div>
+                
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Enter the Range</label>
+                  <input type="text" class="form-control" id="secondNumber" aria-describedby="emailHelp" placeholder="Enter the Range" 
+                    onKeyPress={(event) => {
+                    if (!/[0-9]/.test(event.key)) {
+                        event.preventDefault();
+                      }
+                    }}/>
+                    <small class="form-text text-muted">Example - To View 10 results, enter 10 as range</small>
+                </div>
+                
+                <button type="button" class="btn btn-primary" onClick={multiplyBy} id = "submit">Submit</button>
+                <button class = "btn btn-primary" id = "clear">Clear</button>
+              
+                <p id = "result">
+                
+                </p>
+              
+            </form>  
+
+        </div>
+      </div>
 </div>
   );
 }
