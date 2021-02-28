@@ -10,7 +10,7 @@ function App() {
     var length = +document.getElementById("secondNumber").value;
     var result = document.getElementById("result");
 
-    
+
     
     if(table == "0")
         {
@@ -67,11 +67,28 @@ function App() {
     <div class="help-tip">
         
         <p>
-            <b>Tips to Success</b>
-            • An Application that displays the multiplication tables based on the given input.
-            • Enter 3 and 10 in the first and second input box respectively to view the table of 3 with range of 10
-            • The default value of the first input box is 1. Both the boxes takes only numbers as input.
-            • The input for the second box is important, without it you would not be able to view the output.
+          
+          <b>Tips to Success</b>
+          
+          <br></br>
+          <br></br>
+          • An Application that displays the multiplication tables based on the given input.
+          
+          <br></br>
+          <br></br>
+
+          • Enter 3 and 10 in the first and second input box respectively to view the table of 3 with range of 10.
+         
+          <br></br>
+          <br></br>
+
+          • The default value of the first input box is 1. Both the boxes takes only numbers as input.
+
+          <br></br>
+          <br></br>
+
+          • The input for the second box is important, without it you would not be able to view the output.
+        
         </p>
           
         
