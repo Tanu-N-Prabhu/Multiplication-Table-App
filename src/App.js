@@ -11,11 +11,10 @@ function App() {
     var length = +document.getElementById("secondNumber").value;
     var result = document.getElementById("result");
 
-
     // If no number is entered then the default value for the first field will be 1 and then the second field as 5 would be entered.
     if(table == "0")
     {
-        table = document.getElementById("firstNumber").defaultValue = 1;      
+      table = document.getElementById("firstNumber").defaultValue = 1;      
     }
 
     if(length == "0")
@@ -23,39 +22,24 @@ function App() {
       length = document.getElementById("secondNumber").defaultValue = 5;      
     }
     
-
-
-    
-  
-    //document.write("Multiplication table: "+ table);
     for(i=1; i <= length; i++)
-     //document.write("<br>"+table+" * "+i+" = " +(table * i));
     {
-        //document.write("<br><br>"+table+" * "+i+" = " +(table * i));
-        //result.innerHTML += ("<br>"+table+" * "+i+" = " +"<b>"+(table * i)+"</b>");
-        list += ("<br>"+table+" x "+i+" = " +"<b>"+(table * i)+"</b>");
-        
+      list += ("<br>"+table+" x "+i+" = " +"<b>"+(table * i)+"</b>");  
     }
-    
-    // Every time innerHTML is set, the HTML has to be parsed, a DOM constructed, and inserted into the document. Try to use temporary string variable instead. This prevents apending the same result everytime.
-    
-    // For example when the user want to display multiplication table 3 with the range 2
-    // Then the output would be displayed as 3 * 1 = 3 and 3 * 2 = 6
-    // Now if the same user changes the range to 4
-    // With the help of the above logic the new result will be 3 * 1 = 3, 3 * 2 = 6, 3 * 3 = 9, 3 * 4 = 12
-    
+
+    /*
+    Every time innerHTML is set, the HTML has to be parsed, a DOM constructed, and inserted into the document. Try to use temporary string variable instead. This prevents apending the same result everytime.
+    For example when the user want to display multiplication table 3 with the range 2
+    Then the output would be displayed as 3 * 1 = 3 and 3 * 2 = 6
+    Now if the same user changes the range to 4
+    With the help of the above logic the new result will be 3 * 1 = 3, 3 * 2 = 6, 3 * 3 = 9, 3 * 4 = 12
+    */
+
     list += "";
     result.innerHTML = list;
     
-   
-    
+  }
 
-}
-
-
-
-
-  
   return (
     <div class="container">
       <br></br>
