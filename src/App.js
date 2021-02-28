@@ -1,7 +1,9 @@
 import React from 'react';
 
 function App() {
-  
+
+
+  // This is the function that multiplies the numbers given by the user.
   function multiplyBy(){
 
     // Initializing Variable for below usage otherwise you will get the famous "variable not defined".
