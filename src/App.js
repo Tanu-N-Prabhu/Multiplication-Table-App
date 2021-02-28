@@ -76,9 +76,7 @@ function App() {
           • The input for the second box is important, without it you would not be able to view the output.
         
         </p>
-          
-        
-        
+           
     </div>
             
 
