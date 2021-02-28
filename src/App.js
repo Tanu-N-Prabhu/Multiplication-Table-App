@@ -12,16 +12,16 @@ function App() {
     var result = document.getElementById("result");
 
 
-    
+    // If no number is entered then the default value for the first field will be 1 and then the second field as 5 would be entered.
     if(table == "0")
-        {
-            table = document.getElementById("firstNumber").defaultValue = 1;      
-        }
-    
-        if(length == "0")
-        {
-          length = document.getElementById("secondNumber").defaultValue = 5;      
-        }
+    {
+        table = document.getElementById("firstNumber").defaultValue = 1;      
+    }
+
+    if(length == "0")
+    {
+      length = document.getElementById("secondNumber").defaultValue = 5;      
+    }
     
 
 
