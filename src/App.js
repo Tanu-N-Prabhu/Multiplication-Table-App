@@ -2,7 +2,6 @@ import React from 'react';
 
 function App() {
 
-
   // This is the function that multiplies the numbers given by the user.
   function multiplyBy(){
 
@@ -43,6 +42,8 @@ function App() {
   }
 
   return (
+
+    // In react always the return in this file should be enclose by one html tag.
     <div class="container">
       <br></br>
  
