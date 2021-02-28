@@ -80,7 +80,7 @@ function App(){
           <form id = "final">
                 <div class="form-group">
                     <label>Enter the Number</label>
-                    <input type="text" class="form-control" id="firstNumber" placeholder="Multiplication Table Number" type="number" 
+                    <input type="text" class="form-control" id="firstNumber" placeholder="Multiplication Table Number" 
                       onKeyPress={(event) => {
                       if (!/[0-9]/.test(event.key)) {
                         event.preventDefault();
@@ -91,7 +91,7 @@ function App(){
                 
                 <div class="form-group">
                   <label for="exampleInputEmail1">Enter the Range</label>
-                  <input type="text" class="form-control" id="secondNumber" aria-describedby="emailHelp" placeholder="Enter the Range" 
+                  <input type="text" class="form-control" id="secondNumber" placeholder="Enter the Range" 
                     onKeyPress={(event) => {
                     if (!/[0-9]/.test(event.key)) {
                         event.preventDefault();
