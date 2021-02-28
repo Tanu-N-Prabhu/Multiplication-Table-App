@@ -9,6 +9,8 @@ function App() {
     var table = +document.getElementById("firstNumber").value;
     var length = +document.getElementById("secondNumber").value;
     var result = document.getElementById("result");
+
+    
     
     if(table == "0")
         {
