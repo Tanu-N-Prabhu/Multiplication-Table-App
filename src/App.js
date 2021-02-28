@@ -3,9 +3,10 @@ import React from 'react';
 function App() {
   
   function multiplyBy(){
+
+    // Initializing Variable for below usage otherwise you will get the famous "variable not defined".
     var i = 1;
     var list = "";
-
     var table = +document.getElementById("firstNumber").value;
     var length = +document.getElementById("secondNumber").value;
     var result = document.getElementById("result");
@@ -72,7 +73,7 @@ function App() {
           
           <br></br>
           <br></br>
-          
+
           • An Application that displays the multiplication tables based on the given input.
           
           <br></br>
