@@ -9,6 +9,7 @@
 # Features
 
 1. <b>Only Integer Input</b> - Both the input field only integer inputs, try typing in character or string inputs, you can't don't worry. Thanks to the JavaScript function `onKeyPress` combined with regular expressions. You cannot input negative numbers as well. I mean who would want to the multiplication table of -4 * 5 right.
+2. <b>Default values are 1 and 5</b> - Sometimes user have the tendency to test the application without typing anything. In this case if you do so, both the fields will take the values 1 for the number and 5 as the range and display 1 * 1 till 1 * 5 as the result.
 
 # Deployment
 
