@@ -1,4 +1,4 @@
-# [Multiply me](https://603c113bd682050195888681--multiply-me.netlify.app/)
+# [Multiply Me](https://603c113bd682050195888681--multiply-me.netlify.app/)
 
 
 # Getting Started with Create React App
