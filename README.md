@@ -11,7 +11,7 @@
 1. <b>Only Integer Input</b> - Both the input field only integer inputs, try typing in character or string inputs, you can't don't worry. Thanks to the JavaScript function `onKeyPress` combined with regular expressions. You cannot input negative numbers as well. I mean who would want to the multiplication table of -4 * 5 right.
 2. <b>Default values are 1 and 5</b> - Sometimes user have the tendency to test the application without typing anything. In this case if you do so, both the fields will take the values 1 for the number and 5 as the range and display 1 * 1 till 1 * 5 as the result.
 3. <b>Clear Buttons clear everything</b> - If you have so many numbers that are disturbing you, then just use the Clear button to clear them in a jiffy. 
-
+4. <b>Very Responsive</b> - I have tested the application on my smart phone i.e. OnePlus 6T and worked perfectely well on the emulator as well. The application fits very well to any type of screens.
 # Deployment
 
 ## Netlify is used to deploy the project on the internet
