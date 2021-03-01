@@ -29,10 +29,8 @@ color:#fff;
 .help-tip:hover p{
 display:block;
 transform-origin: 100% 0%;
-
 -webkit-animation: fadeIn 0.3s ease-in-out;
 animation: fadeIn 0.3s ease-in-out;
-
 }
 
 .help-tip p{    /* The tooltip */
@@ -71,7 +69,6 @@ left:0;
 }
 
 /* CSS animation */
-
 @-webkit-keyframes fadeIn {
 0% { 
 opacity:0; 
@@ -89,43 +86,7 @@ transform: scale(100);
 100% { opacity:100%; }
 }
 
-
-
-.dark-mode{
-    background-color: white;
-}
-
-.dark-mode div.card{
-    background-color: black;
-}
-
-.dark-mode h5{
-    color: white;
-}
-.dark-mode label{
-    color: white;
-}
-.dark-mode h2{
-    color: white;
-}
-
-.dark-mode i{
-    color: yellow;
-}
-
-h2{
-    color: black;
-}
-h5{
-    color: black;
-}
-
-label{
-    color: black;
-}
-
 #submit , #clear {
     display:inline-block;
-    /* additional code */
     margin:3px;
 }
