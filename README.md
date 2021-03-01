@@ -6,7 +6,9 @@
 <img src = "public\featureImageMultiplyMe.PNG">
 </p>
 
+# Features
 
+1. <b>Only Integer Input</b> - Both the input field only integer inputs, try typing in character or string inputs, you can't don't worry. Thanks to the JavaScript function `onKeyPress` combined with regular expressions. You cannot input negative numbers as well. I mean who would want to the multiplication table of -4 * 5 right.
 
 # Deployment
 
