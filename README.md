@@ -39,7 +39,8 @@
 ---
 
 # GitHub Commands
-Use the Git commands from the Visual Studio Code to either push, commit and pull to the GitHub Repository.
+
+Use the below given Git commands from the Visual Studio Code to either push, commit and pull to the GitHub Repository.
 
 1. `git remote add origin add-your-git-link` - To connect to your GitHub Repository
 
